@@ -1,0 +1,37 @@
+body {
+	background-color: rgb(225, 185, 185)
+}
+
+.js .slider-single>div:nth-child(1n+2) {
+	display: none
+}
+
+.js .slider-single.slick-initialized>div:nth-child(1n+2) {
+	display: block
+}
+img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+.custom-slide{
+	padding: 15px 5px 0 5px;
+	
+	height: 200px;
+	object-fit: cover;
+    box-shadow: 5px 5px 5px #dedede76;}
+
+
+.slider-single h3 {
+	line-height: 10rem;
+}
+
+
+
+.slider-nav .slick-slide {
+    margin: 20px 5px;
+}
+
+.slider-nav .slick-slide {
+    margin: 20px 5px;
+}

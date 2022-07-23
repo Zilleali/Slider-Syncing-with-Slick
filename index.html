@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Slick Slider Syncing</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/5.5.0/css/foundation.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
+	<link rel='stylesheet' href='https://kenwheeler.github.io/slick/slick/slick-theme.css'>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<div id="page">
+		<div class="row">
+			<div class="slider slider-single">
+				<div>
+					<img src="https://images.unsplash.com/photo-1656336659715-dad97d10af6a?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img src="https://images.unsplash.com/photo-1656230776385-c40b3ec3feb7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img src="https://images.unsplash.com/photo-1657143376804-2c8ef7bfa72d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img src="https://images.unsplash.com/photo-1656014816561-8fdaa3c6b11d?crop=100x100entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY2ODM&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img src="https://images.unsplash.com/photo-1657659558323-08b7854ed766?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY3MjA&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img src="https://images.unsplash.com/photo-1657182688568-fdddf99fcd09?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY3MjA&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img src="https://images.unsplash.com/photo-1656389426118-0844b68ec32e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY4Mjk&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img src="https://images.unsplash.com/photo-1656376406339-46519f18c397?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY5MTI&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+			</div>
+			<div class="slider slider-nav">
+				<div>
+
+					<img class="custom-slide"
+						src="https://images.unsplash.com/photo-1656336659715-dad97d10af6a?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80">
+
+				</div>
+				<div>
+					<img class="custom-slide"
+						src="https://images.unsplash.com/photo-1656230776385-c40b3ec3feb7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img class="custom-slide"
+						src="https://images.unsplash.com/photo-1657143376804-2c8ef7bfa72d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzYxNDI&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img class="custom-slide"
+						src="https://images.unsplash.com/photo-1656014816561-8fdaa3c6b11d?crop=100x100entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY2ODM&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img class="custom-slide"
+						src="https://images.unsplash.com/photo-1657659558323-08b7854ed766?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY3MjA&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img class="custom-slide"
+						src="https://images.unsplash.com/photo-1657182688568-fdddf99fcd09?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY3MjA&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img class="custom-slide"
+						src="https://images.unsplash.com/photo-1656389426118-0844b68ec32e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY4Mjk&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+				<div>
+					<img class="custom-slide"
+						src="https://images.unsplash.com/photo-1656376406339-46519f18c397?crop1920x600=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg1NzY5MTI&ixlib=rb-1.2.1&q=80"
+						alt="" srcset="">
+				</div>
+			</div>
+
+			</div>
+			<!-- </div> -->
+		</div>
+	</div>
+	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
